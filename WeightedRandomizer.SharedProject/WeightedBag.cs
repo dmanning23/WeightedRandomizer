@@ -1,9 +1,8 @@
-﻿using System;
+﻿using RandomExtensions;
+using System;
 using System.Collections.Generic;
-using System.Text;
-using RandomExtensions;
 
-namespace WeightedRandomizer.SharedProject
+namespace WeightedRandomizer
 {
 	public class WeightedBag<T>
 	{
@@ -29,6 +28,11 @@ namespace WeightedRandomizer.SharedProject
 
 		public void AddItem(T item, float weight)
 		{
+			if (0f > weight)
+			{
+				throw new Exception("Weight must be >= 0");
+			}
+
 			Items.Add(new BagItem<T>(item, weight));
 		}
 

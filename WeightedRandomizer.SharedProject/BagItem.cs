@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace WeightedRandomizer.SharedProject
+﻿
+namespace WeightedRandomizer
 {
-    internal class BagItem<T>
-    {
+	internal class BagItem<T>
+	{
 		#region Properties
 
 		public T Item { get; set; }
