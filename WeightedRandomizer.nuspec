@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
 	<metadata>
 		<id>WeightedRandomizer.dmanning23</id>
-		<version>1.0.1</version>
+		<version>1.0.2</version>
 		<title>WeightedRandomizer.dmanning23</title>
 		<authors>dmanning23</authors>
 		<owners>dmanning23</owners>
@@ -51,9 +51,9 @@
 		<file src="WeightedRandomizer.WindowsUniversal\bin\Release\WeightedRandomizer.WindowsUniversal.pdb" target="lib\uap10.0\WeightedRandomizer.WindowsUniversal.pdb" />
 		<file src="WeightedRandomizer.WindowsUniversal\bin\Release\WeightedRandomizer.WindowsUniversal.dll" target="lib\uap10.0\WeightedRandomizer.WindowsUniversal.dll" />
 
-		<!--DesktopGL-->
-		<file src="WeightedRandomizer.DesktopGL\bin\Release\WeightedRandomizer.DesktopGL.pdb" target="lib\net451\WeightedRandomizer.DesktopGL.pdb" />
-		<file src="WeightedRandomizer.DesktopGL\bin\Release\WeightedRandomizer.DesktopGL.dll" target="lib\net451\WeightedRandomizer.DesktopGL.dll" />
+		<!--WindowsDX-->
+		<file src="WeightedRandomizer.WindowsDX\bin\Release\WeightedRandomizer.WindowsDX.pdb" target="lib\net451\WeightedRandomizer.WindowsDX.pdb" />
+		<file src="WeightedRandomizer.WindowsDX\bin\Release\WeightedRandomizer.WindowsDX.dll" target="lib\net451\WeightedRandomizer.WindowsDX.dll" />
 
 	</files>
 </package>

@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "WeightedRandomizer.SharedProject", "WeightedRandomizer.SharedProject\WeightedRandomizer.SharedProject.shproj", "{822EC58E-5C20-4258-A90C-57C673A0543A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeightedRandomizer.DesktopGL", "WeightedRandomizer.DesktopGL\WeightedRandomizer.DesktopGL.csproj", "{10627170-3161-49FC-B660-C40EE7B78217}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeightedRandomizer.Android", "WeightedRandomizer.Android\WeightedRandomizer.Android.csproj", "{08C13DBE-91A3-4C4B-AA20-744C3B72B323}"
 EndProject
@@ -18,6 +16,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		buildNugetPackages.ps1 = buildNugetPackages.ps1
 		WeightedRandomizer.nuspec = WeightedRandomizer.nuspec
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeightedRandomizer.WindowsDX", "WeightedRandomizer.WindowsDX\WeightedRandomizer.WindowsDX.csproj", "{10627170-3161-49FC-B660-C40EE7B78217}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -38,22 +38,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{10627170-3161-49FC-B660-C40EE7B78217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{10627170-3161-49FC-B660-C40EE7B78217}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{10627170-3161-49FC-B660-C40EE7B78217}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{10627170-3161-49FC-B660-C40EE7B78217}.Debug|ARM.Build.0 = Debug|Any CPU
-		{10627170-3161-49FC-B660-C40EE7B78217}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{10627170-3161-49FC-B660-C40EE7B78217}.Debug|x64.Build.0 = Debug|Any CPU
-		{10627170-3161-49FC-B660-C40EE7B78217}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{10627170-3161-49FC-B660-C40EE7B78217}.Debug|x86.Build.0 = Debug|Any CPU
-		{10627170-3161-49FC-B660-C40EE7B78217}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{10627170-3161-49FC-B660-C40EE7B78217}.Release|Any CPU.Build.0 = Release|Any CPU
-		{10627170-3161-49FC-B660-C40EE7B78217}.Release|ARM.ActiveCfg = Release|Any CPU
-		{10627170-3161-49FC-B660-C40EE7B78217}.Release|ARM.Build.0 = Release|Any CPU
-		{10627170-3161-49FC-B660-C40EE7B78217}.Release|x64.ActiveCfg = Release|Any CPU
-		{10627170-3161-49FC-B660-C40EE7B78217}.Release|x64.Build.0 = Release|Any CPU
-		{10627170-3161-49FC-B660-C40EE7B78217}.Release|x86.ActiveCfg = Release|Any CPU
-		{10627170-3161-49FC-B660-C40EE7B78217}.Release|x86.Build.0 = Release|Any CPU
 		{08C13DBE-91A3-4C4B-AA20-744C3B72B323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{08C13DBE-91A3-4C4B-AA20-744C3B72B323}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08C13DBE-91A3-4C4B-AA20-744C3B72B323}.Debug|ARM.ActiveCfg = Debug|Any CPU
@@ -102,8 +86,27 @@ Global
 		{25664D94-9674-423E-B747-8C138D3510B7}.Release|x64.Build.0 = Release|x64
 		{25664D94-9674-423E-B747-8C138D3510B7}.Release|x86.ActiveCfg = Release|x86
 		{25664D94-9674-423E-B747-8C138D3510B7}.Release|x86.Build.0 = Release|x86
+		{10627170-3161-49FC-B660-C40EE7B78217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10627170-3161-49FC-B660-C40EE7B78217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10627170-3161-49FC-B660-C40EE7B78217}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{10627170-3161-49FC-B660-C40EE7B78217}.Debug|ARM.Build.0 = Debug|Any CPU
+		{10627170-3161-49FC-B660-C40EE7B78217}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{10627170-3161-49FC-B660-C40EE7B78217}.Debug|x64.Build.0 = Debug|Any CPU
+		{10627170-3161-49FC-B660-C40EE7B78217}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{10627170-3161-49FC-B660-C40EE7B78217}.Debug|x86.Build.0 = Debug|Any CPU
+		{10627170-3161-49FC-B660-C40EE7B78217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10627170-3161-49FC-B660-C40EE7B78217}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10627170-3161-49FC-B660-C40EE7B78217}.Release|ARM.ActiveCfg = Release|Any CPU
+		{10627170-3161-49FC-B660-C40EE7B78217}.Release|ARM.Build.0 = Release|Any CPU
+		{10627170-3161-49FC-B660-C40EE7B78217}.Release|x64.ActiveCfg = Release|Any CPU
+		{10627170-3161-49FC-B660-C40EE7B78217}.Release|x64.Build.0 = Release|Any CPU
+		{10627170-3161-49FC-B660-C40EE7B78217}.Release|x86.ActiveCfg = Release|Any CPU
+		{10627170-3161-49FC-B660-C40EE7B78217}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC65866B-3712-4C1A-A343-89B1EA54166E}
 	EndGlobalSection
 EndGlobal

@@ -7,10 +7,11 @@
     <ProjectGuid>{10627170-3161-49FC-B660-C40EE7B78217}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WeightedRandomizer.DesktopGL</RootNamespace>
-    <AssemblyName>WeightedRandomizer.DesktopGL</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RootNamespace>WeightedRandomizer.WindowsDX</RootNamespace>
+    <AssemblyName>WeightedRandomizer.WindowsDX</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
